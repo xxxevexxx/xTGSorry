@@ -1,0 +1,6 @@
+/poetry.lock
+/.env
+/bases/bot.sqlite3
+/bases/bot.sqlite3-shm
+/bases/bot.sqlite3-wal
+__pycache__/

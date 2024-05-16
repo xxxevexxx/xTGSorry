@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "telegram-multi-tgsorry"
+version = "0.1.0"
+description = ""
+authors = ["xxxevexxx <dl6l6l6lb@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uvicorn = "^0.23.2"
+fastapi = "^0.104.1"
+pyrogram = "^2.0.106"
+tgcrypto = "^1.2.5"
+tortoise-orm = "^0.20.0"
+pyrostep = "^2.10.8"
+fernet = "^1.0.1"
+aerich = "^0.7.2"
+cryptography = "^41.0.5"
+aiomysql = "^0.2.0"
+loguru = "^0.7.2"
+aiohttp = "^3.8.6"
+vkbottle = "^4.3.12"
+docstring-parser = "^0.15"
+load-dotenv = "^0.1.0"
+psutil = "^5.9.8"
+cachebox = "^1.0.21"
+pyjwt = "^2.8.0"
+
+[tool.aerich]
+tortoise_orm = "config.TORTOISE_ORM"
+location = "./migrations"
+src_folder = "./."
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
