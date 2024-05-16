@@ -1,8 +1,9 @@
 [tool.poetry]
-name = "telegram-multi-tgsorry"
+name = "xtgsorry"
 version = "0.1.0"
 description = ""
 authors = ["xxxevexxx <dl6l6l6lb@gmail.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
